@@ -139,6 +139,9 @@ html, body {
     background-position: -228%;
     background-color: #000000;
     position: relative; }
+    @media (min-width: 1496px) {
+      .header-section .col-1 {
+        flex-basis: 35%; } }
     .header-section .col-1 .wrapper {
       display: flex;
       flex-direction: column;
@@ -612,7 +615,11 @@ html, body {
     /**/
     padding-top: 60px;
     padding-bottom: 60px;
-    /**/ }
+    /**/
+    padding-right: 95px; }
+    @media (max-width: 1190px) {
+      .section-6-5 .text {
+        padding-right: 26px; } }
     .section-6-5 .text p {
       color: #fff;
       font-size: 35px;
